@@ -77,7 +77,7 @@ class XDIPhone12ProMax1 extends StatelessWidget {
           ),
           Pinned.fromPins(
             Pin(size: 295.0, middle: 0.5113),
-            Pin(size: 52.8, middle: 0.7045),
+            Pin(size: 51.8, middle: 0.7037),
             child:
                 // Adobe XD layer: 'Continue' (group)
                 PageLink(
@@ -93,7 +93,7 @@ class XDIPhone12ProMax1 extends StatelessWidget {
                 children: <Widget>[
                   Pinned.fromPins(
                     Pin(start: 0.0, end: 0.0),
-                    Pin(start: 0.0, end: 4.8),
+                    Pin(start: 0.0, end: 3.8),
                     child: SvgPicture.string(
                       _svg_w0mutm,
                       allowDrawingOutsideViewBox: true,
@@ -101,7 +101,7 @@ class XDIPhone12ProMax1 extends StatelessWidget {
                     ),
                   ),
                   Pinned.fromPins(
-                    Pin(size: 82.0, middle: 0.493),
+                    Pin(size: 82.0, middle: 0.5211),
                     Pin(size: 42.0, end: 0.0),
                     child: Text(
                       'LOGIN \n',
@@ -168,10 +168,10 @@ class XDIPhone12ProMax1 extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 42.0, middle: 0.5052),
+            Pin(size: 58.0, middle: 0.5216),
             Pin(size: 31.0, middle: 0.7754),
             child: Text(
-              'OR',
+              'OR  ',
               style: TextStyle(
                 fontFamily: 'Arial',
                 fontSize: 28,

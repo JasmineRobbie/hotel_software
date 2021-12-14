@@ -144,10 +144,10 @@ class XDIPhone12ProMax3 extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 187.0, middle: 0.5643),
+            Pin(size: 166.0, middle: 0.5191),
             Pin(size: 42.0, start: 50.0),
             child: Text(
-              'Welcome  ',
+              'Welcome',
               style: TextStyle(
                 fontFamily: 'Arial',
                 fontSize: 38,
