@@ -101,13 +101,13 @@ class XDIPhone12ProMax1 extends StatelessWidget {
                     ),
                   ),
                   Pinned.fromPins(
-                    Pin(size: 50.0, middle: 0.502),
-                    Pin(size: 17.0, middle: 0.4442),
+                    Pin(size: 76.0, middle: 0.4932),
+                    Pin(size: 27.0, middle: 0.5129),
                     child: Text(
                       'LOGIN',
                       style: TextStyle(
                         fontFamily: 'Arial',
-                        fontSize: 16,
+                        fontSize: 24,
                         color: const Color(0xffffffff),
                         fontWeight: FontWeight.w700,
                         height: 0.625,
@@ -147,16 +147,16 @@ class XDIPhone12ProMax1 extends StatelessWidget {
                     ),
                   ),
                   Pinned.fromPins(
-                    Pin(size: 66.0, middle: 0.5022),
-                    Pin(size: 17.0, middle: 0.5161),
+                    Pin(size: 102.0, middle: 0.4922),
+                    Pin(size: 28.0, middle: 0.5),
                     child: Text(
                       'SIGN UP',
                       style: TextStyle(
                         fontFamily: 'Arial',
-                        fontSize: 16,
+                        fontSize: 25,
                         color: const Color(0xffffffff),
                         fontWeight: FontWeight.w700,
-                        height: 0.625,
+                        height: 0.6,
                       ),
                       textHeightBehavior:
                           TextHeightBehavior(applyHeightToFirstAscent: false),

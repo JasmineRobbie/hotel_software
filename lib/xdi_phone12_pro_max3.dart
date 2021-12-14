@@ -17,7 +17,7 @@ class XDIPhone12ProMax3 extends StatelessWidget {
         children: <Widget>[
           Pinned.fromPins(
             Pin(size: 117.0, middle: 0.3955),
-            Pin(size: 122.0, start: 83.0),
+            Pin(size: 122.0, start: 120.0),
             child:
                 // Adobe XD layer: 'pexels-2873951' (shape)
                 Container(
@@ -33,7 +33,7 @@ class XDIPhone12ProMax3 extends StatelessWidget {
           ),
           Pinned.fromPins(
             Pin(size: 117.0, middle: 0.6624),
-            Pin(size: 122.0, start: 83.0),
+            Pin(size: 122.0, start: 120.0),
             child:
                 // Adobe XD layer: 'pexels-2873951' (shape)
                 Container(
@@ -49,7 +49,7 @@ class XDIPhone12ProMax3 extends StatelessWidget {
           ),
           Pinned.fromPins(
             Pin(size: 117.0, middle: 0.6977),
-            Pin(size: 122.0, middle: 0.3184),
+            Pin(size: 122.0, middle: 0.3644),
             child:
                 // Adobe XD layer: 'pexels-2873951' (shape)
                 Container(
@@ -65,7 +65,7 @@ class XDIPhone12ProMax3 extends StatelessWidget {
           ),
           Pinned.fromPins(
             Pin(size: 117.0, middle: 0.4373),
-            Pin(size: 122.0, middle: 0.3308),
+            Pin(size: 122.0, middle: 0.3769),
             child:
                 // Adobe XD layer: 'pexels-2873951' (shape)
                 Container(
@@ -81,7 +81,7 @@ class XDIPhone12ProMax3 extends StatelessWidget {
           ),
           Pinned.fromPins(
             Pin(size: 117.0, end: 46.0),
-            Pin(size: 122.0, start: 126.0),
+            Pin(size: 122.0, middle: 0.2027),
             child:
                 // Adobe XD layer: 'pexels-2873951' (shape)
                 Container(
@@ -97,7 +97,7 @@ class XDIPhone12ProMax3 extends StatelessWidget {
           ),
           Pinned.fromPins(
             Pin(size: 117.0, end: 46.0),
-            Pin(size: 122.0, middle: 0.2687),
+            Pin(size: 122.0, middle: 0.3147),
             child:
                 // Adobe XD layer: 'pexels-2873951' (shape)
                 Container(
@@ -113,7 +113,7 @@ class XDIPhone12ProMax3 extends StatelessWidget {
           ),
           Pinned.fromPins(
             Pin(size: 117.0, start: 46.0),
-            Pin(size: 122.0, start: 126.0),
+            Pin(size: 122.0, middle: 0.2027),
             child:
                 // Adobe XD layer: 'pexels-2873951' (shape)
                 Container(
@@ -129,7 +129,7 @@ class XDIPhone12ProMax3 extends StatelessWidget {
           ),
           Pinned.fromPins(
             Pin(size: 117.0, start: 62.0),
-            Pin(size: 122.0, middle: 0.2674),
+            Pin(size: 122.0, middle: 0.3134),
             child:
                 // Adobe XD layer: 'pexels-2873951' (shape)
                 Container(
@@ -144,13 +144,13 @@ class XDIPhone12ProMax3 extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 131.0, middle: 0.5118),
-            Pin(size: 33.0, start: 35.0),
+            Pin(size: 166.0, middle: 0.5191),
+            Pin(size: 42.0, start: 50.0),
             child: Text(
               'Welcome',
               style: TextStyle(
                 fontFamily: 'Arial',
-                fontSize: 30,
+                fontSize: 38,
                 color: const Color(0xff000000),
                 fontWeight: FontWeight.w700,
                 height: 1,
@@ -170,8 +170,8 @@ class XDIPhone12ProMax3 extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 159.0, end: 19.0),
-            Pin(size: 54.0, middle: 0.4817),
+            Pin(size: 159.0, end: 15.0),
+            Pin(size: 54.0, middle: 0.5505),
             child:
                 // Adobe XD layer: 'Date Picker' (group)
                 Stack(
@@ -298,8 +298,8 @@ class XDIPhone12ProMax3 extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 159.0, end: 19.0),
-            Pin(size: 52.0, middle: 0.587),
+            Pin(size: 159.0, end: 15.0),
+            Pin(size: 52.0, middle: 0.6556),
             child:
                 // Adobe XD layer: 'Date Picker' (group)
                 Stack(
@@ -426,8 +426,8 @@ class XDIPhone12ProMax3 extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 176.0, start: 20.0),
-            Pin(size: 28.0, middle: 0.4788),
+            Pin(size: 176.0, start: 24.0),
+            Pin(size: 28.0, middle: 0.5457),
             child: Text(
               'Check-In Date:',
               style: TextStyle(
@@ -443,8 +443,8 @@ class XDIPhone12ProMax3 extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 196.0, start: 19.0),
-            Pin(size: 28.0, middle: 0.5824),
+            Pin(size: 196.0, start: 23.0),
+            Pin(size: 28.0, middle: 0.6492),
             child: Text(
               'Check-Out Date:',
               style: TextStyle(
@@ -461,7 +461,7 @@ class XDIPhone12ProMax3 extends StatelessWidget {
           ),
           Pinned.fromPins(
             Pin(start: 59.2, end: 59.2),
-            Pin(size: 48.0, end: 102.0),
+            Pin(size: 48.0, end: 84.0),
             child:
                 // Adobe XD layer: 'Continue' (group)
                 PageLink(
@@ -485,13 +485,13 @@ class XDIPhone12ProMax3 extends StatelessWidget {
                     ),
                   ),
                   Pinned.fromPins(
-                    Pin(size: 68.0, middle: 0.5),
-                    Pin(size: 17.0, middle: 0.5161),
+                    Pin(size: 102.0, middle: 0.5),
+                    Pin(size: 27.0, middle: 0.5238),
                     child: Text(
                       'SEARCH',
                       style: TextStyle(
                         fontFamily: 'Arial',
-                        fontSize: 16,
+                        fontSize: 24,
                         color: const Color(0xffffffff),
                         fontWeight: FontWeight.w700,
                         height: 0.625,
@@ -506,8 +506,8 @@ class XDIPhone12ProMax3 extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 141.0, start: 31.0),
-            Pin(size: 49.0, middle: 0.7184),
+            Pin(size: 141.0, start: 35.0),
+            Pin(size: 49.0, middle: 0.7868),
             child:
                 // Adobe XD layer: 'Input' (group)
                 Stack(
@@ -545,8 +545,8 @@ class XDIPhone12ProMax3 extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 165.0, start: 31.0),
-            Pin(size: 49.0, middle: 0.7184),
+            Pin(size: 165.0, start: 35.0),
+            Pin(size: 49.0, middle: 0.7868),
             child:
                 // Adobe XD layer: 'Input' (group)
                 Stack(
@@ -584,8 +584,8 @@ class XDIPhone12ProMax3 extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 141.0, end: 47.0),
-            Pin(size: 49.0, middle: 0.7184),
+            Pin(size: 141.0, end: 43.0),
+            Pin(size: 49.0, middle: 0.7868),
             child:
                 // Adobe XD layer: 'Input' (group)
                 Stack(
@@ -623,8 +623,8 @@ class XDIPhone12ProMax3 extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 174.0, end: 19.0),
-            Pin(size: 49.0, middle: 0.7184),
+            Pin(size: 174.0, end: 15.0),
+            Pin(size: 49.0, middle: 0.7868),
             child:
                 // Adobe XD layer: 'Input' (group)
                 Stack(
@@ -709,7 +709,7 @@ class XDIPhone12ProMax3 extends StatelessWidget {
           ),
           Pinned.fromPins(
             Pin(size: 175.0, middle: 0.502),
-            Pin(size: 175.0, middle: 0.1891),
+            Pin(size: 175.0, middle: 0.2383),
             child:
                 // Adobe XD layer: 'Detroit Plaza' (shape)
                 Container(
