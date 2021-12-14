@@ -50,9 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Pinned.fromPins(
             Pin(size: 295.0, middle: 0.5113),
             Pin(size: 128.0, middle: 0.5238),
-            child:
-                // Adobe XD layer: 'Inputs' (grid)
-                Scrollbar(
+            child: Scrollbar(
               child: SingleChildScrollView(
                 child: Wrap(
                   alignment: WrapAlignment.center,
@@ -70,9 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     return SizedBox(
                       width: 295.0,
                       height: 48.0,
-                      child:
-                          // Adobe XD layer: 'inputs' (group)
-                          Stack(
+                      child: Stack(
                         children: <Widget>[
                           Pinned.fromPins(
                             Pin(start: 0.0, end: 0.0),
@@ -110,9 +106,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Pinned.fromPins(
             Pin(size: 295.0, middle: 0.5113),
             Pin(size: 48.0, middle: 0.7007),
-            child:
-                // Adobe XD layer: 'Continue' (group)
-                PageLink(
+            child: PageLink(
               links: [
                 PageLinkInfo(
                   transition: LinkTransition.Fade,
@@ -156,9 +150,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Pinned.fromPins(
             Pin(size: 295.0, middle: 0.5113),
             Pin(size: 48.0, end: 116.0),
-            child:
-                // Adobe XD layer: 'Continue' (group)
-                PageLink(
+            child: PageLink(
               links: [
                 PageLinkInfo(
                   transition: LinkTransition.Fade,
@@ -219,9 +211,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Pinned.fromPins(
             Pin(start: 58.0, end: 58.0),
             Pin(size: 312.0, start: 37.0),
-            child:
-                // Adobe XD layer: 'Detroit Plaza' (shape)
-                Container(
+            child: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
                   image:
