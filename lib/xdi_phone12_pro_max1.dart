@@ -77,7 +77,7 @@ class XDIPhone12ProMax1 extends StatelessWidget {
           ),
           Pinned.fromPins(
             Pin(size: 295.0, middle: 0.5113),
-            Pin(size: 48.0, middle: 0.7007),
+            Pin(size: 52.8, middle: 0.7045),
             child:
                 // Adobe XD layer: 'Continue' (group)
                 PageLink(
@@ -93,7 +93,7 @@ class XDIPhone12ProMax1 extends StatelessWidget {
                 children: <Widget>[
                   Pinned.fromPins(
                     Pin(start: 0.0, end: 0.0),
-                    Pin(start: 0.0, end: 0.0),
+                    Pin(start: 0.0, end: 4.8),
                     child: SvgPicture.string(
                       _svg_w0mutm,
                       allowDrawingOutsideViewBox: true,
@@ -101,10 +101,10 @@ class XDIPhone12ProMax1 extends StatelessWidget {
                     ),
                   ),
                   Pinned.fromPins(
-                    Pin(size: 76.0, middle: 0.4932),
-                    Pin(size: 27.0, middle: 0.5129),
+                    Pin(size: 82.0, middle: 0.493),
+                    Pin(size: 42.0, end: 0.0),
                     child: Text(
-                      'LOGIN',
+                      'LOGIN \n',
                       style: TextStyle(
                         fontFamily: 'Arial',
                         fontSize: 24,
@@ -123,7 +123,7 @@ class XDIPhone12ProMax1 extends StatelessWidget {
           ),
           Pinned.fromPins(
             Pin(size: 295.0, middle: 0.5113),
-            Pin(size: 48.0, end: 116.0),
+            Pin(size: 53.0, end: 111.0),
             child:
                 // Adobe XD layer: 'Continue' (group)
                 PageLink(
@@ -139,7 +139,7 @@ class XDIPhone12ProMax1 extends StatelessWidget {
                 children: <Widget>[
                   Pinned.fromPins(
                     Pin(start: 0.0, end: 0.0),
-                    Pin(start: 0.0, end: 0.0),
+                    Pin(start: 0.0, end: 5.0),
                     child: SvgPicture.string(
                       _svg_t5j0kt,
                       allowDrawingOutsideViewBox: true,
@@ -147,10 +147,10 @@ class XDIPhone12ProMax1 extends StatelessWidget {
                     ),
                   ),
                   Pinned.fromPins(
-                    Pin(size: 102.0, middle: 0.4922),
-                    Pin(size: 28.0, middle: 0.5),
+                    Pin(size: 110.0, middle: 0.4919),
+                    Pin(size: 43.0, end: 0.0),
                     child: Text(
-                      'SIGN UP',
+                      'SIGN UP \n',
                       style: TextStyle(
                         fontFamily: 'Arial',
                         fontSize: 25,
@@ -168,16 +168,16 @@ class XDIPhone12ProMax1 extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 30.0, middle: 0.505),
-            Pin(size: 22.0, middle: 0.7677),
+            Pin(size: 42.0, middle: 0.5052),
+            Pin(size: 31.0, middle: 0.7754),
             child: Text(
               'OR',
               style: TextStyle(
                 fontFamily: 'Arial',
-                fontSize: 20,
+                fontSize: 28,
                 color: const Color(0xff000000),
                 fontWeight: FontWeight.w700,
-                height: 0.6,
+                height: 0.6071428571428571,
               ),
               textHeightBehavior:
                   TextHeightBehavior(applyHeightToFirstAscent: false),

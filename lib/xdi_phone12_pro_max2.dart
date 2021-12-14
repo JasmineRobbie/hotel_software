@@ -63,13 +63,13 @@ class XDIPhone12ProMax2 extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 264.0, middle: 0.5),
-            Pin(size: 33.0, start: 67.0),
+            Pin(size: 255.0, middle: 0.5029),
+            Pin(size: 61.0, start: 67.0),
             child: Text(
-              'Create an Account',
+              'Create an Account\n ',
               style: TextStyle(
                 fontFamily: 'Arial',
-                fontSize: 30,
+                fontSize: 29,
                 color: const Color(0xff000000),
                 fontWeight: FontWeight.w700,
                 height: 1,
@@ -167,7 +167,7 @@ class XDIPhone12ProMax2 extends StatelessWidget {
           ),
           Pinned.fromPins(
             Pin(start: 59.2, end: 59.2),
-            Pin(size: 48.0, end: 119.9),
+            Pin(size: 53.9, end: 114.0),
             child:
                 // Adobe XD layer: 'Continue' (group)
                 PageLink(
@@ -183,7 +183,7 @@ class XDIPhone12ProMax2 extends StatelessWidget {
                 children: <Widget>[
                   Pinned.fromPins(
                     Pin(start: 0.0, end: 0.0),
-                    Pin(start: 0.0, end: 0.0),
+                    Pin(start: 0.0, end: 5.9),
                     child: SvgPicture.string(
                       _svg_g0q149,
                       allowDrawingOutsideViewBox: true,
@@ -191,16 +191,16 @@ class XDIPhone12ProMax2 extends StatelessWidget {
                     ),
                   ),
                   Pinned.fromPins(
-                    Pin(size: 94.0, middle: 0.5),
-                    Pin(size: 33.0, end: 7.1),
+                    Pin(size: 92.0, middle: 0.5),
+                    Pin(start: 7.9, end: 0.0),
                     child: Text(
-                      'LOGIN',
+                      'LOGIN \n',
                       style: TextStyle(
                         fontFamily: 'Arial',
-                        fontSize: 30,
+                        fontSize: 27,
                         color: const Color(0xffffffff),
                         fontWeight: FontWeight.w700,
-                        height: 0.6,
+                        height: 0.5925925925925926,
                       ),
                       textHeightBehavior:
                           TextHeightBehavior(applyHeightToFirstAscent: false),

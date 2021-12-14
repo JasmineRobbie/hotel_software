@@ -16,13 +16,13 @@ class XDIPhone12ProMax5 extends StatelessWidget {
       body: Stack(
         children: <Widget>[
           Pinned.fromPins(
-            Pin(size: 290.0, middle: 0.5),
-            Pin(size: 66.0, start: 57.0),
+            Pin(size: 214.0, middle: 0.5654),
+            Pin(size: 49.0, start: 64.0),
             child: Text(
               'Thank you for your \nselection',
               style: TextStyle(
                 fontFamily: 'Arial',
-                fontSize: 31,
+                fontSize: 23,
                 color: const Color(0xff000000),
                 fontWeight: FontWeight.w700,
                 height: 1,
