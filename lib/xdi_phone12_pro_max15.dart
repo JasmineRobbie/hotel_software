@@ -16,25 +16,8 @@ class XDIPhone12ProMax15 extends StatelessWidget {
       body: Stack(
         children: <Widget>[
           Pinned.fromPins(
-            Pin(size: 314.0, end: 39.0),
-            Pin(size: 26.0, start: 21.0),
-            child: Text(
-              'Thank you for your selection',
-              style: TextStyle(
-                fontFamily: 'Arial',
-                fontSize: 23,
-                color: const Color(0xff000000),
-                fontWeight: FontWeight.w700,
-                height: 1,
-              ),
-              textHeightBehavior:
-                  TextHeightBehavior(applyHeightToFirstAscent: false),
-              textAlign: TextAlign.center,
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(start: 14.0, end: 375.4),
-            Pin(start: 14.4, end: 873.0),
+            Pin(start: 14.0, end: 392.9),
+            Pin(start: 53.0, end: 851.9),
             child: PageLink(
               links: [
                 PageLinkInfo(
@@ -45,20 +28,20 @@ class XDIPhone12ProMax15 extends StatelessWidget {
                 ),
               ],
               child: SvgPicture.string(
-                _svg_r1fqm,
+                _svg_itzyog,
                 allowDrawingOutsideViewBox: true,
                 fit: BoxFit.fill,
               ),
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 121.0, middle: 0.4658),
-            Pin(size: 33.0, middle: 0.1725),
+            Pin(size: 186.0, middle: 0.4587),
+            Pin(size: 51.0, middle: 0.176),
             child: Text(
               'Luxe Suite',
               style: TextStyle(
                 fontFamily: 'Noto Sans',
-                fontSize: 24,
+                fontSize: 37,
                 color: const Color(0xff3d3d3d),
                 fontWeight: FontWeight.w600,
               ),
@@ -149,7 +132,7 @@ class XDIPhone12ProMax15 extends StatelessWidget {
           ),
           Pinned.fromPins(
             Pin(start: 0.0, end: -13.5),
-            Pin(size: 551.7, middle: 0.5301),
+            Pin(size: 398.7, middle: 0.5375),
             child:
                 // Adobe XD layer: 'pexels-1329711' (shape)
                 Container(
@@ -162,13 +145,30 @@ class XDIPhone12ProMax15 extends StatelessWidget {
               ),
             ),
           ),
+          Pinned.fromPins(
+            Pin(start: 57.0, end: 57.0),
+            Pin(size: 26.0, start: 53.0),
+            child: Text(
+              'Thank you for your selection',
+              style: TextStyle(
+                fontFamily: 'Arial',
+                fontSize: 23,
+                color: const Color(0xff000000),
+                fontWeight: FontWeight.w700,
+                height: 1,
+              ),
+              textHeightBehavior:
+                  TextHeightBehavior(applyHeightToFirstAscent: false),
+              textAlign: TextAlign.center,
+            ),
+          ),
         ],
       ),
     );
   }
 }
 
-const String _svg_r1fqm =
-    '<svg viewBox="14.0 14.4 38.6 38.6" ><path transform="matrix(-1.0, 0.0, 0.0, -1.0, 52.64, 53.0)" d="M 19.32235717773438 0 L 15.80920505523682 3.513155937194824 L 29.10901069641113 16.81296157836914 L 0 16.81296157836914 L 0 21.83175659179688 L 29.10901069641113 21.83175659179688 L 15.80920505523682 35.13156127929688 L 19.32235717773438 38.64471435546875 L 38.64471435546875 19.32235717773438 L 19.32235717773438 0 Z" fill="#000000" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+const String _svg_itzyog =
+    '<svg viewBox="14.0 53.0 21.1 21.1" ><path transform="matrix(-1.0, 0.0, 0.0, -1.0, 35.05, 74.05)" d="M 10.52719116210938 0 L 8.613158226013184 1.914034724235535 L 15.85914707183838 9.16002368927002 L 0 9.16002368927002 L 0 11.89435958862305 L 15.85914707183838 11.89435958862305 L 8.613158226013184 19.14034843444824 L 10.52719116210938 21.05438232421875 L 21.05438232421875 10.52719116210938 L 10.52719116210938 0 Z" fill="#000000" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
 const String _svg_g0q149 =
     '<svg viewBox="0.0 0.0 309.6 48.0" ><path  d="M 25.19143676757812 0 L 284.4533081054688 0 C 298.3661193847656 0 309.6447448730469 10.74516487121582 309.6447448730469 24 C 309.6447448730469 37.25483703613281 298.3661193847656 48 284.4533081054688 48 L 25.19143676757812 48 C 11.27858924865723 48 0 37.25483703613281 0 24 C 0 10.74516487121582 11.27858924865723 0 25.19143676757812 0 Z" fill="#000000" stroke="none" stroke-width="2" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';

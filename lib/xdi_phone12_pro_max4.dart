@@ -5,9 +5,6 @@ import 'package:adobe_xd/page_link.dart';
 import './xdi_phone12_pro_max12.dart';
 import './xdi_phone12_pro_max5.dart';
 import './xdi_phone12_pro_max13.dart';
-import './xdi_phone12_pro_max16.dart';
-import './xdi_phone12_pro_max14.dart';
-import './xdi_phone12_pro_max15.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class XDIPhone12ProMax4 extends StatelessWidget {
@@ -22,7 +19,7 @@ class XDIPhone12ProMax4 extends StatelessWidget {
         children: <Widget>[
           Pinned.fromPins(
             Pin(start: 20.0, end: 20.0),
-            Pin(start: 154.0, end: 254.0),
+            Pin(size: 1335.0, end: -563.0),
             child:
                 // Adobe XD layer: 'List' (group)
                 Stack(
@@ -319,13 +316,13 @@ class XDIPhone12ProMax4 extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 312.0, end: 47.0),
-            Pin(size: 72.0, start: 17.0),
+            Pin(size: 256.0, middle: 0.5),
+            Pin(size: 59.0, start: 48.0),
             child: Text(
               'Select an available \nroom below',
               style: TextStyle(
                 fontFamily: 'Arial',
-                fontSize: 34,
+                fontSize: 28,
                 color: const Color(0xff000000),
                 fontWeight: FontWeight.w700,
                 height: 1,
@@ -336,8 +333,8 @@ class XDIPhone12ProMax4 extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(start: 22.0, end: 367.4),
-            Pin(start: 17.0, end: 1687.4),
+            Pin(start: 20.0, end: 379.7),
+            Pin(start: 48.0, end: 849.7),
             child: PageLink(
               links: [
                 PageLinkInfo(
@@ -348,7 +345,7 @@ class XDIPhone12ProMax4 extends StatelessWidget {
                 ),
               ],
               child: SvgPicture.string(
-                _svg_o6eda7,
+                _svg_loxjw6,
                 allowDrawingOutsideViewBox: true,
                 fit: BoxFit.fill,
               ),
@@ -356,7 +353,7 @@ class XDIPhone12ProMax4 extends StatelessWidget {
           ),
           Pinned.fromPins(
             Pin(start: 30.5, end: 34.5),
-            Pin(size: 170.3, middle: 0.2975),
+            Pin(size: 170.3, middle: 0.6191),
             child:
                 // Adobe XD layer: 'pexels-164595' (shape)
                 PageLink(
@@ -382,7 +379,7 @@ class XDIPhone12ProMax4 extends StatelessWidget {
           ),
           Pinned.fromPins(
             Pin(start: 27.1, end: 34.5),
-            Pin(size: 176.9, start: 203.0),
+            Pin(size: 176.9, middle: 0.271),
             child:
                 // Adobe XD layer: 'pexels-1374125' (shape)
                 PageLink(
@@ -408,7 +405,7 @@ class XDIPhone12ProMax4 extends StatelessWidget {
           ),
           Pinned.fromPins(
             Pin(start: 30.5, end: 34.5),
-            Pin(size: 184.3, middle: 0.4659),
+            Pin(size: 184.3, end: 15.5),
             child:
                 // Adobe XD layer: 'pexels-90317' (shape)
                 PageLink(
@@ -433,81 +430,12 @@ class XDIPhone12ProMax4 extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(start: 27.1, end: 34.5),
-            Pin(size: 177.0, end: 62.0),
-            child:
-                // Adobe XD layer: 'pexels-775219' (shape)
-                PageLink(
-              links: [
-                PageLinkInfo(
-                  transition: LinkTransition.Fade,
-                  ease: Curves.easeOut,
-                  duration: 0.3,
-                  pageBuilder: () => XDIPhone12ProMax16(),
-                ),
-              ],
-              child: Container(
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                    image: const AssetImage('assets/images/royal.jpg'),
-                    fit: BoxFit.cover,
-                  ),
-                  border:
-                      Border.all(width: 1.0, color: const Color(0x00000000)),
-                ),
-              ),
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(start: 30.5, end: 34.5),
-            Pin(size: 179.8, middle: 0.6344),
-            child:
-                // Adobe XD layer: 'pexels-2631746' (shape)
-                PageLink(
-              links: [
-                PageLinkInfo(
-                  transition: LinkTransition.Fade,
-                  ease: Curves.easeOut,
-                  duration: 0.3,
-                  pageBuilder: () => XDIPhone12ProMax14(),
-                ),
-              ],
-              child: Container(
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                    image: const AssetImage('assets/images/premium.jpg'),
-                    fit: BoxFit.cover,
-                  ),
-                  border:
-                      Border.all(width: 1.0, color: const Color(0x00000000)),
-                ),
-              ),
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(start: 30.5, end: 34.5),
-            Pin(size: 192.6, middle: 0.804),
-            child:
-                // Adobe XD layer: 'pexels-1329711' (shape)
-                PageLink(
-              links: [
-                PageLinkInfo(
-                  transition: LinkTransition.Fade,
-                  ease: Curves.easeOut,
-                  duration: 0.3,
-                  pageBuilder: () => XDIPhone12ProMax15(),
-                ),
-              ],
-              child: Container(
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                    image: const AssetImage('assets/images/luxe.jpg'),
-                    fit: BoxFit.cover,
-                  ),
-                  border:
-                      Border.all(width: 1.0, color: const Color(0x00000000)),
-                ),
-              ),
+            Pin(start: 20.0, end: 379.7),
+            Pin(start: 48.0, end: 849.7),
+            child: SvgPicture.string(
+              _svg_loxjw6,
+              allowDrawingOutsideViewBox: true,
+              fit: BoxFit.fill,
             ),
           ),
         ],
@@ -528,5 +456,5 @@ const String _svg_wao6i =
     '<svg viewBox="0.0 46.6 388.0 1.0" ><path transform="translate(0.0, 46.64)" d="M 0 0 L 388 0" fill="none" stroke="#e5e5e5" stroke-width="2" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
 const String _svg_vd2umw =
     '<svg viewBox="0.0 47.0 388.0 1.0" ><path transform="translate(0.0, 47.0)" d="M 0 0 L 388 0" fill="none" stroke="#e5e5e5" stroke-width="2" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
-const String _svg_o6eda7 =
-    '<svg viewBox="22.0 17.0 38.6 38.6" ><path transform="matrix(-1.0, 0.0, 0.0, -1.0, 60.64, 55.64)" d="M 19.32235717773438 0 L 15.80920505523682 3.513155937194824 L 29.10901069641113 16.81296157836914 L 0 16.81296157836914 L 0 21.83175659179688 L 29.10901069641113 21.83175659179688 L 15.80920505523682 35.13156127929688 L 19.32235717773438 38.64471435546875 L 38.64471435546875 19.32235717773438 L 19.32235717773438 0 Z" fill="#000000" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+const String _svg_loxjw6 =
+    '<svg viewBox="20.0 48.0 28.3 28.3" ><path transform="matrix(-1.0, 0.0, 0.0, -1.0, 48.31, 76.31)" d="M 14.15420532226562 0 L 11.58071613311768 2.573491811752319 L 21.32322120666504 12.31599807739258 L 0 12.31599807739258 L 0 15.99241542816162 L 21.32322120666504 15.99241542816162 L 11.58071613311768 25.73492050170898 L 14.15420532226562 28.30841064453125 L 28.30841064453125 14.15420532226562 L 14.15420532226562 0 Z" fill="#000000" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';

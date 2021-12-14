@@ -57,16 +57,16 @@ class XDIPhone12ProMax6 extends StatelessWidget {
                     ),
                   ),
                   Pinned.fromPins(
-                    Pin(size: 76.0, middle: 0.5),
-                    Pin(size: 22.0, middle: 0.5),
+                    Pin(size: 62.0, middle: 0.5),
+                    Pin(size: 17.0, middle: 0.5115),
                     child: Text(
                       'Log Out',
                       style: TextStyle(
                         fontFamily: 'Arial',
-                        fontSize: 20,
+                        fontSize: 16,
                         color: const Color(0xffffffff),
                         fontWeight: FontWeight.w700,
-                        height: 0.6,
+                        height: 0.625,
                       ),
                       textHeightBehavior:
                           TextHeightBehavior(applyHeightToFirstAscent: false),

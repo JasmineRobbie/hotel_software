@@ -144,13 +144,13 @@ class XDIPhone12ProMax3 extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 175.0, middle: 0.502),
-            Pin(size: 44.0, start: 21.0),
+            Pin(size: 131.0, middle: 0.5118),
+            Pin(size: 33.0, start: 35.0),
             child: Text(
               'Welcome',
               style: TextStyle(
                 fontFamily: 'Arial',
-                fontSize: 40,
+                fontSize: 30,
                 color: const Color(0xff000000),
                 fontWeight: FontWeight.w700,
                 height: 1,
@@ -485,16 +485,16 @@ class XDIPhone12ProMax3 extends StatelessWidget {
                     ),
                   ),
                   Pinned.fromPins(
-                    Pin(size: 84.0, middle: 0.5008),
-                    Pin(size: 22.0, middle: 0.5121),
+                    Pin(size: 68.0, middle: 0.5),
+                    Pin(size: 17.0, middle: 0.5161),
                     child: Text(
                       'SEARCH',
                       style: TextStyle(
                         fontFamily: 'Arial',
-                        fontSize: 20,
+                        fontSize: 16,
                         color: const Color(0xffffffff),
                         fontWeight: FontWeight.w700,
-                        height: 0.6,
+                        height: 0.625,
                       ),
                       textHeightBehavior:
                           TextHeightBehavior(applyHeightToFirstAscent: false),
@@ -662,8 +662,8 @@ class XDIPhone12ProMax3 extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 90.1, start: 20.0),
-            Pin(size: 38.3, start: 22.7),
+            Pin(size: 90.1, start: 14.4),
+            Pin(size: 38.3, start: 51.5),
             child:
                 // Adobe XD layer: 'Continue' (group)
                 PageLink(
@@ -687,16 +687,16 @@ class XDIPhone12ProMax3 extends StatelessWidget {
                     ),
                   ),
                   Pinned.fromPins(
-                    Pin(start: 3.0, end: 9.1),
-                    Pin(size: 17.0, middle: 0.3897),
+                    Pin(size: 54.0, middle: 0.4881),
+                    Pin(size: 12.0, middle: 0.5133),
                     child: Text(
                       'SIGN OUT',
                       style: TextStyle(
                         fontFamily: 'Arial',
-                        fontSize: 16,
+                        fontSize: 11,
                         color: const Color(0xffffffff),
                         fontWeight: FontWeight.w700,
-                        height: 0.625,
+                        height: 0.6363636363636364,
                       ),
                       textHeightBehavior:
                           TextHeightBehavior(applyHeightToFirstAscent: false),
